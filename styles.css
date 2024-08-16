@@ -426,3 +426,43 @@ footer hr{
 }
 
 
+/* Setiap tampilan untuk perangkat mobile */
+@media only screen and (max-width: 600px) {
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about_us, .visi_misi, .contact {
+        padding: 20px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card-image {
+        background-size: cover;
+        height: 200px;
+    }
+
+    .socmed ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socmed ul li {
+        margin-bottom: 10px;
+    }
+}
