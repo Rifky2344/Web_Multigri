@@ -25,6 +25,7 @@ header {
     margin: 0;
     justify-content: left;
     align-items: center;
+    flex-direction: row;
 }
 
 .menu ul li button {
@@ -429,13 +430,21 @@ footer hr{
 /* Setiap tampilan untuk perangkat mobile */
 @media only screen and (max-width: 600px) {
     .menu ul {
-        display: flex;
-        flex-direction: column;
+        flex-direction: column; /* Kolom pada mobile */
+        width: 100%; /* Memenuhi lebar layar */
         align-items: center;
+        background-color: green; /* Warna latar belakang menu */
     }
 
     .menu ul li {
-        margin-bottom: 10px;
+        width: 100%; /* Setiap item memenuhi lebar */
+        text-align: center;
+    }
+
+    .menu ul li button {
+        width: 100%;
+        margin: 5px 0;
+        padding: 15px 0;
     }
 
     .picture img {
