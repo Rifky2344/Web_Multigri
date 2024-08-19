@@ -1,4 +1,3 @@
-/*=====Header=====*/
 header {
     display: flex;
     align-items: center;
@@ -6,17 +5,16 @@ header {
     background-color: green;
 }
 
-.logo{
+.logo {
     background-color: white;
-    width: 300px;
-    border-bottom-right-radius: 500px;
+    width: 15vw;
+    border-bottom-right-radius: 25vw;
     margin: 0;
-    
 }
 
 .logo img {
-    height: 100px;
-    margin-left: 10px;
+    height: 5vw;
+    margin-left: 0.5vw;
 }
 
 .menu ul {
@@ -29,16 +27,16 @@ header {
 }
 
 .menu ul li button {
-        border: none;
-        background-color: green;
-        padding: 16px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        border-radius: 10%
-}      
+    border: none;
+    background-color: green;
+    padding: 0.8vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.5vw;
+}
 
 .menu ul li button a {
     color: white;
@@ -64,23 +62,23 @@ body {
 .picture {
     position: relative;
     text-align: center;
-    color: white;
 }
 
 .picture img {
     width: 100%;
-    height: 650px;
+    height: 33.75vw;
     display: block;
     opacity: 80%;
 }
 
 .picture-text {
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1vw;
+    border-radius: 0.5vw;
 }
 
 .picture-text h1 {
@@ -93,62 +91,59 @@ body {
     margin: 0;
 }
 
-
 .bgGreen {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
     background-color: green;
     color: white;
 }
 
 .bgWhite {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
     background-color: whitesmoke;
     color: green;
-
 }
 
-
 /*=====Contents=====*/
-.about_us{
-    max-width: 800px;
+.about_us {
+    max-width: 40vw;
     margin: 0 auto;
 }
 
 .about_us h1 {
     font-size: 2em;
-    margin-bottom: 5px;
+    margin-bottom: 0.25vw;
 }
 
 .about_us hr {
     border: 0;
-    height: 1px;
+    height: 0.05vw;
     background-color: rgb(0, 0, 0);
-    width: 150px;
-    margin: 10px 0;
+    width: 7.5vw;
+    margin: 0.5vw 0;
 }
 
 .visi_misi {
-    max-width: 800px;
+    max-width: 40vw;
     margin: 0 auto;
 }
 
 .content_vmq {
-    margin-bottom: 40px;
+    margin-bottom: 2vw;
 }
 
 .content_vmq h1 {
     color: #ff9000;
-    margin-bottom: 5px;
+    margin-bottom: 0.25vw;
 }
 
 .content_vmq hr {
     border: 0;
-    height: 1px;
+    height: 0.05vw;
     background-color: white;
-    width: 50px;
-    margin: 10px 0;
+    width: 2.5vw;
+    margin: 0.5vw 0;
 }
 
 .content_vmq p {
@@ -156,69 +151,66 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 40vw;
     margin: 0 auto;
 }
 
 .container hr {
     border: 0;
-    height: 1px;
+    height: 0.05vw;
     background-color: rgb(0, 0, 0);
-    width: 300px;
-    margin: 10px 0;
+    width: 15vw;
+    margin: 0.5vw 0;
 }
 
 .container h1 {
     font-size: 2.5em;
-    margin-bottom: 10px;
+    margin-bottom: 0.5vw;
 }
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
     text-align: center;
-    gap: 50px;
+    gap: 2.5vw;
 }
 
 .card button {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 1.25vw;
     background-color: transparent;
     border-color: transparent;
-    height: 500px;
-    width: 300px;
-    border-radius: 10px;
+    height: 25vw;
+    width: 15vw;
+    border-radius: 0.5vw;
     overflow: hidden;
 }
 
-
 .card-image {
-    margin: 7px;
-    height: 300px;
+    margin: 0.35vw;
+    height: 15vw;
     background-size: cover;
     background-position: center;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
     border-color: #000000;
-
 }
 
 .card-content {
-    padding: 20px;
+    padding: 1vw;
     background-color: green;
-    border-radius: 10px;
-    box-shadow: 0px 1px 2px #000000;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0.05vw 0.1vw #000000;
 }
 
 .card h2 {
     font-size: 1.5em;
     text-align: left;
     margin: 0;
-    color:#ff9000;
+    color: #ff9000;
 }
 
 .card p {
-    margin: 10px 0 0;
+    margin: 0.5vw 0 0;
     color: white;
     text-align: left;
 }
@@ -229,45 +221,49 @@ body {
     font-size: 1.1em;
 }
 
-.contact{
-    max-width: 800px;
+.contact {
+    max-width: 40vw;
     margin: 0 auto;
     background-color: antiquewhite;
     color: green;
-    border-radius: 10px;
+    border-radius: 0.5vw;
 }
 
 .contact h1 {
     font-size: 1.5em;
-    margin: 10px;
-    color: #ff9000;
-}
-
-.contact h2 {
-    font-size: 1.2em;
-    margin: 10px;
+    margin: 0.5vw;
     color: #ff9000;
 }
 
 .contact hr {
     border: 0;
-    height: 1px;
+    height: 0.05vw;
     background-color: rgb(0, 0, 0);
-    width: 150px;
-    margin: 10px;
+    width: 7.5vw;
+    margin: 0.5vw;
 }
 
-.contact p {
-    margin: 10px;
+.address {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }
 
+.address h2 {
+    font-size: 1.2em;
+    color: #ff9000;
+    text-align: center;
+}
 
-.socmed hr{
+.address p {
+    text-align: center;
+}
+
+.socmed hr {
     border: 1;
-    height: 3px;
+    height: 0.15vw;
     background-color: rgb(0, 0, 0);
     width: auto;
-    margin: 10px;
+    margin: 0.5vw;
 }
 
 .socmed ul {
@@ -275,11 +271,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 1vw;
     padding: 0;
-    margin: 20px 0 0;
+    margin: 1vw 0 0;
 }
-
 
 .socmed ul li button {
     border: none;
@@ -291,7 +286,7 @@ body {
     border: none;
     background-color: rgb(177, 165, 149);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.5vw;
 }
 
 .socmed ul li button a {
@@ -300,8 +295,8 @@ body {
 }
 
 .socmed ul li button .socmed-image {
-    width: 50px;
-    height: 50px;
+    width: 2.5vw;
+    height: 2.5vw;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -309,7 +304,7 @@ body {
 }
 
 .socmed ul li button p {
-    margin-top: 10px;
+    margin-top: 0.5vw;
     font-size: 1.1em;
     color: green;
 }
@@ -323,18 +318,19 @@ body {
 
 .picture2 img {
     width: 100%;
-    height: 450px;
+    height: 22.5vw;
     display: block;
-    opacity: 80%;
+    opacity: 55%;
 }
 
 .picture-text2 {
+    color: green;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1vw;
+    border-radius: 0.5vw;
 }
 
 .picture-text2 h1 {
@@ -358,8 +354,8 @@ body {
 }
 
 .box {
-    max-width: 1700px;
-    padding: 10px;
+    max-width: 85vw;
+    padding: 0.5vw;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -368,7 +364,7 @@ body {
 
 .text-box {
     flex: 1;
-    margin: 50px;
+    margin: 2.5vw;
 }
 
 .text-box h1 {
@@ -378,10 +374,10 @@ body {
 
 .text-box hr {
     border: 0;
-    height: 2px;
+    height: 0.1vw;
     background-color: black;
-    width: 100px;
-    margin: 10px 0;
+    width: 5vw;
+    margin: 0.5vw 0;
 }
 
 .text-box h2 {
@@ -401,7 +397,7 @@ body {
     width: 100%;
     height: 10%;
     display: block;
-    border-radius: 10px;
+    border-radius: 0.5vw;
 }
 
 /*=====Footer=====*/
@@ -411,66 +407,17 @@ footer {
     color: white;
     position: relative;
     width: 100%;
-    padding: 1px;
+    padding: 0.05vw;
 }
 
-footer p{
+footer p {
     font-size: 0.85em;
     line-height: 1;
 }
 
-footer hr{
+footer hr {
     border: 0;
-    height: 2px;
+    height: 0.1vw;
     background-color: black;
     width: auto;
-}
-
-
-/* Setiap tampilan untuk perangkat mobile */
-@media only screen and (max-width: 600px) {
-    .menu ul {
-        width: 100%;
-        align-items: center;
-        background-color: green;
-    }
-
-    .menu ul li {
-        width: 100%; /* Setiap item memenuhi lebar */
-        text-align: center;
-    }
-
-    .menu ul li button {
-        width: 100%;
-        margin: 5px 0;
-        padding: 15px 0;
-    }
-
-    .picture img {
-        width: 100%;
-        height: auto;
-    }
-
-    .about_us, .visi_misi, .contact {
-        padding: 20px;
-    }
-
-    .card-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .card-image {
-        background-size: cover;
-        height: 200px;
-    }
-
-    .socmed ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .socmed ul li {
-        margin-bottom: 10px;
-    }
 }
