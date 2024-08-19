@@ -430,10 +430,9 @@ footer hr{
 /* Setiap tampilan untuk perangkat mobile */
 @media only screen and (max-width: 600px) {
     .menu ul {
-        flex-direction: column; /* Kolom pada mobile */
-        width: 100%; /* Memenuhi lebar layar */
+        width: 100%;
         align-items: center;
-        background-color: green; /* Warna latar belakang menu */
+        background-color: green;
     }
 
     .menu ul li {
