@@ -1,3 +1,5 @@
+/*=====Header=====*/
+
 header {
     display: flex;
     align-items: center;
@@ -41,13 +43,13 @@ header {
 .menu ul li button a {
     color: white;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1vw; /* Responsif font size */
 }
 
 .menu ul li button a:hover {
     color:#ff9000;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1vw; /* Responsif font size */
 }
 
 /*=====Body=====*/
@@ -82,12 +84,12 @@ body {
 }
 
 .picture-text h1 {
-    font-size: 3em;
+    font-size: 3vw; /* Responsif font size */
     margin: 0;
 }
 
 .picture-text p {
-    font-size: 1.5em;
+    font-size: 1.5vw; /* Responsif font size */
     margin: 0;
 }
 
@@ -112,7 +114,7 @@ body {
 }
 
 .about_us h1 {
-    font-size: 2em;
+    font-size: 2vw; /* Responsif font size */
     margin-bottom: 0.25vw;
 }
 
@@ -136,6 +138,7 @@ body {
 .content_vmq h1 {
     color: #ff9000;
     margin-bottom: 0.25vw;
+    font-size: 2vw; /* Responsif font size */
 }
 
 .content_vmq hr {
@@ -147,7 +150,7 @@ body {
 }
 
 .content_vmq p {
-    font-size: 1em;
+    font-size: 1vw; /* Responsif font size */
 }
 
 .container {
@@ -164,7 +167,7 @@ body {
 }
 
 .container h1 {
-    font-size: 2.5em;
+    font-size: 2.5vw; /* Responsif font size */
     margin-bottom: 0.5vw;
 }
 
@@ -203,7 +206,7 @@ body {
 }
 
 .card h2 {
-    font-size: 1.5em;
+    font-size: 1.5vw; /* Responsif font size */
     text-align: left;
     margin: 0;
     color: #ff9000;
@@ -213,12 +216,13 @@ body {
     margin: 0.5vw 0 0;
     color: white;
     text-align: left;
+    font-size: 1vw; /* Responsif font size */
 }
 
 .card a {
     color: rgb(255, 0, 0);
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1vw; /* Responsif font size */
 }
 
 .contact {
@@ -230,7 +234,7 @@ body {
 }
 
 .contact h1 {
-    font-size: 1.5em;
+    font-size: 1.5vw; /* Responsif font size */
     margin: 0.5vw;
     color: #ff9000;
 }
@@ -249,13 +253,14 @@ body {
 }
 
 .address h2 {
-    font-size: 1.2em;
+    font-size: 1.2vw; /* Responsif font size */
     color: #ff9000;
     text-align: center;
 }
 
 .address p {
     text-align: center;
+    font-size: 1vw; /* Responsif font size */
 }
 
 .socmed hr {
@@ -292,6 +297,7 @@ body {
 .socmed ul li button a {
     text-decoration: none;
     color: green;
+    font-size: 1vw; /* Responsif font size */
 }
 
 .socmed ul li button .socmed-image {
@@ -305,7 +311,7 @@ body {
 
 .socmed ul li button p {
     margin-top: 0.5vw;
-    font-size: 1.1em;
+    font-size: 1.1vw; /* Responsif font size */
     color: green;
 }
 
@@ -334,12 +340,12 @@ body {
 }
 
 .picture-text2 h1 {
-    font-size: 3em;
+    font-size: 3vw; /* Responsif font size */
     margin: 0;
 }
 
 .picture-text2 p {
-    font-size: 1.5em;
+    font-size: 1.5vw; /* Responsif font size */
     margin: 0;
 }
 
@@ -368,7 +374,7 @@ body {
 }
 
 .text-box h1 {
-    font-size: 1.5em;
+    font-size: 1.5vw; /* Responsif font size */
     color: #ff9000;
 }
 
@@ -381,11 +387,11 @@ body {
 }
 
 .text-box h2 {
-    font-size: 1.2em;
+    font-size: 1.2vw; /* Responsif font size */
 }
 
 .text-box p {
-    font-size: 1em;
+    font-size: 1vw; /* Responsif font size */
     line-height: 1;
 }
 
@@ -411,7 +417,7 @@ footer {
 }
 
 footer p {
-    font-size: 0.85em;
+    font-size: 0.85vw; /* Responsif font size */
     line-height: 1;
 }
 
