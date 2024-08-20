@@ -159,6 +159,15 @@ body {
     font-size: 1em;
 }
 
+.content_vmq ul {
+    justify-content: left;
+    align-items: center;
+}
+
+.content_vmq ul li{
+    font-size: 1em;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -168,7 +177,7 @@ body {
     border: 0;
     height: 1px;
     background-color: rgb(0, 0, 0);
-    width: 300px;
+    width: 200px;
     margin: 10px 0;
 }
 
@@ -260,7 +269,7 @@ body {
 }
 
 .address h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #ff9000;
     text-align: center;
 }
@@ -268,7 +277,7 @@ body {
 
 .address p {
     text-align: center;
-    font-size: 1em;
+    font-size: 0.85em;
 }
 
 
@@ -402,6 +411,15 @@ body {
 .text-box p {
     font-size: 1em;
     line-height: 1;
+}
+
+.text-box ul {
+    justify-content: left;
+    align-items: center;
+}
+
+.text-box ul li{
+    font-size: 0.85em;
 }
 
 .image-box {
