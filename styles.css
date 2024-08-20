@@ -151,7 +151,7 @@ body {
 }
 
 .content_vmq p {
-    font-size: 1em;
+    font-size: 0.75em;
 }
 
 .container {
@@ -263,6 +263,7 @@ body {
 
 .address p {
     text-align: center;
+    font-size: 0.75em;
 }
 
 
